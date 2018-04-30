@@ -58,6 +58,7 @@ module Wicked
       the_step = valid_steps.detect { |stp| stp.to_s == the_step }
 
       #raise InvalidStepError if the_step.nil?
+      p InvalidStepError
       the_step
     end
 
